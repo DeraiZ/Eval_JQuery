@@ -43,6 +43,15 @@ $(function () {
                         
                     })
                 // Question 5
+                $("#shapeCircle").click(function () {
+                    $('.square').css('border-radius', '50px')
+                    
+                })
+                // Question 6 
+                $('#shapeSquare').click(function () {
+                    $('.square').css('border-radius', '0px')
+                    
+                })
             })
         })
             
