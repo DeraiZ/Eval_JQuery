@@ -5,8 +5,8 @@ $(function () {
                 $('redsquare-controls').removeAttr('disabled')
                 $('.btn').toggleClass('btn-light')
                 $('.btn').toggleClass('btn-primary')
-                // Question 3
-                $()
+            
+                // Question 2
                 $(document).keypress(function (e) {
                     switch (e.whitch) {
                         case 37:
@@ -30,12 +30,14 @@ $(function () {
                             })
                             break;
                     }
+                    // Questiion 3 
                 })
             })
+        })
             
             
             
             
             
                 
-            })
+            
