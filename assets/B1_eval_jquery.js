@@ -1,4 +1,4 @@
-$(function () {
+$(function RedSquare_Experiment() {
             $("#toggleRedSquare").click(function () {
                 // Question1
                 $(".redsquare-app").toggleClass("is-active");
@@ -7,29 +7,29 @@ $(function () {
                 $('.btn').toggleClass('btn-primary')
             
                 // Question 2
-                $(document).keypress(function (e) {
-                    switch (e.whitch) {
-                        case 37:
-                            $(".square").finish().animate({
-                                left: "+=20px"
-                            })
-                            break;
-                        case 38:
-                            $(".square").finish().animate({
-                                top: "+=20px"
-                            })
-                            break;
-                        case 39:
-                            $(".square").finish().animate({
-                                left: "-=20px"
-                            })
-                            break;
-                        case 40:
-                            $(".square").finish().animate({
-                                top: "-=20px"
-                            })
-                            break;
-                    }})
+                // $(document).keypress(function (e) {
+                //     switch (e.whitch) {
+                //         case 37:
+                //             $(".square").finish().animate({
+                //                 left: "+=20"
+                //             })
+                //             break;
+                //         case 38:
+                //             $(".square").finish().animate({
+                //                 top: "+=20"
+                //             })
+                //             break;
+                //         case 39:
+                //             $(".square").finish().animate({
+                //                 left: "-=20"
+                //             })
+                //             break;
+                //         case 40:
+                //             $(".square").finish().animate({
+                //                 top: "-=20"
+                //             })
+                //             break;
+                //     }})
                     // Questiion 3
                 $('#scaleUp').click(function () {
                     $('.square').css('width','+=20px');
@@ -54,7 +54,14 @@ $(function () {
                 })
             })
         })
-            
+
+// Partie 2
+$(function Jumbotron() {
+    // Question 1
+    $('a').click(function (event) {
+        event.preventDefault();
+    })
+})
             
             
             
